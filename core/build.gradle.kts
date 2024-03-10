@@ -20,7 +20,7 @@ dependencies {
     implementation("eu.okaeri:okaeri-persistence-mongo:2.0.3")
     implementation("eu.okaeri:okaeri-persistence-jdbc:2.0.3")
     implementation("org.mariadb.jdbc:mariadb-java-client:2.7.3")
-    implementation("com.h2database:h2:1.4.200")
+    implementation("com.h2database:h2:2.2.224")
 }
 
 tasks.withType<ShadowJar> {
