@@ -1,0 +1,5 @@
+name: 'plugin-template'
+version: '1.0-SNAPSHOT'
+main: 'org.example.ExamplePlugin'
+description: 'Example Template'' plugin'
+api-version: '1.20'
