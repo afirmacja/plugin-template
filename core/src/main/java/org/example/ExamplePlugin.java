@@ -49,7 +49,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 // - okaeri-configs configs' (@Configuration required)
 // - Runnables (@Scheduled required)
 // - any beans located in class with @Component
-@Scan(exclusions = "org.example.okaeriplatformtest.libs", deep = true)
+@Scan(exclusions = "org.example.libs", deep = true)
 public class ExamplePlugin extends OkaeriBukkitPlugin {
 
     @Planned(ExecutionPhase.STARTUP) // do not use onEnable (especially without calling super)
