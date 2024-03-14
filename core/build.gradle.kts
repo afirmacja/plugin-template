@@ -14,7 +14,7 @@ dependencies {
 
     compileOnly("org.purpurmc.purpur:purpur-api:1.20.4-R0.1-SNAPSHOT")
 
-    implementation("eu.okaeri:okaeri-platform-bukkit:0.4.7")
+    implementation("eu.okaeri:okaeri-platform-bukkit:0.4.10")
     implementation("eu.okaeri:okaeri-configs-json-simple:5.0.1")
     implementation("eu.okaeri:okaeri-persistence-redis:2.0.3")
     implementation("eu.okaeri:okaeri-persistence-mongo:2.0.3")
