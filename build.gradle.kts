@@ -35,7 +35,7 @@ subprojects {
     }
 
     dependencies {
-        val lombok = "1.18.30"
+        val lombok = "1.18.32"
         compileOnly("org.projectlombok:lombok:$lombok")
         annotationProcessor("org.projectlombok:lombok:$lombok")
         testCompileOnly("org.projectlombok:lombok:$lombok")
